@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Aniversário, Bê! 🎂</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- TELA DE LOGIN -->
+    <div id="login-overlay">
+        <div id="login-box" class="enter-box">
+            <h2>Acesso Especial 💌</h2>
+            
+            <!-- NOVA CONTAGEM REGRESSIVA -->
+            <p class="countdown-title">Contagem para o grande dia:</p>
+            <div id="countdown">
+                <div><span id="days">00</span><span>Dias</span></div>
+                <div><span id="hours">00</span><span>Horas</span></div>
+                <div><span id="minutes">00</span><span>Minutos</span></div>
+                <div><span id="seconds">00</span><span>Segundos</span></div>
+            </div>
+
+            <form id="login-form">
+                <input type="email" id="email" placeholder="Email" required>
+                <input type="password" id="password" placeholder="Senha" required>
+                <button type="submit" id="login-button">Entrar</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Tela de entrada para iniciar a música -->
+    <div id="enter-overlay" class="hidden">
+        <div class="enter-box">
+            <h2>Um presente especial ✨</h2>
+            <p>Clique para começar a experiência</p>
+            <button id="enter-button">Continuar</button>
+        </div>
+    </div>
+
+    <!-- Container principal, inicialmente escondido -->
+    <div class="container hidden">
+        <header>
+            <h1>Para a Bianca 🎉</h1>
+            <p class="subtitle">Um presente para celebrar o seu dia.</p>
+        </header>
+
+        <nav>
+            <button id="btn-motivos" class="active">1- Motivos Corinthianos ⚫⚪</button>
+            <button id="btn-fotos">2- Mini Corinthiana 📸</button>
+            <button id="btn-parabens">3- Minha Mensagem 💌</button>
+            <button id="btn-pergunta">4- A Pergunta Final 🤔</button>
+        </nav>
+
+        <main>
+            <!-- Seção 1: Motivos para virar Corinthiana -->
+            <section id="motivos" class="content active">
+                <h2>5 Motivos para você virar Corinthiana</h2>
+                <ol>
+                    <li>É eu que mando então você vai ser corinthiana sim. 😂</li>
+                    <li>Você é a Preta mais Linda e mais gangster que existe, não combina com SP 💅🏾</li>
+                    <li>A gente vai poder ir ver jogos no estádio sem ngm morrer! 🏟️</li>
+                    <li>Você vai entender o que é ter um time bom de verdade pq esse dai é ruim dms 🏆</li>
+                    <li>Já pensou, a gente com a camisa do timão combinando? ❤️</li>
+                </ol>
+            </section>
+
+            <!-- Seção 2: Galeria de Fotos -->
+            <section id="fotos" class="content">
+                <h2>Fotos da mulher mais linda que existe 🥰</h2>
+                <div class="gallery">
+                    <img src="./img/gif.gif" alt="GIF especial" onerror="this.onerror=null;this.src='https://placehold.co/400x400/EEE/31343C?text=GIF+Especial';">
+                    <img src="./img/foto1.jpeg" alt="Descrição da foto 1" onerror="this.onerror=null;this.src='https://placehold.co/400x400/EEE/31343C?text=Foto+1';">
+                    <img src="./img/foto2.jpeg" alt="Descrição da foto 2" onerror="this.onerror=null;this.src='https://placehold.co/400x400/EEE/31343C?text=Foto+2';">
+                    <img src="./img/foto3.jpeg" alt="Descrição da foto 3" onerror="this.onerror=null;this.src='https://placehold.co/400x400/EEE/31343C?text=Foto+3';">
+                    <img src="./img/foto4.jpeg" alt="Descrição da foto 4" onerror="this.onerror=null;this.src='https://placehold.co/400x400/EEE/31343C?text=Foto+4';">
+                    <img src="./img/foto5.jpeg" alt="Descrição da foto 5" onerror="this.onerror=null;this.src='https://placehold.co/400x400/EEE/31343C?text=Foto+6';">
+                    <img src="./img/foto6.jpeg" alt="Descrição da foto 6" onerror="this.onerror=null;this.src='https://placehold.co/400x400/EEE/31343C?text=Foto+7';">
+                    <img src="./img/foto7.jpeg" alt="Descrição da foto 7" onerror="this.onerror=null;this.src='https://placehold.co/400x400/EEE/31343C?text=Foto+8';">
+                </div>
+            </section>
+
+            <!-- Seção 3: Texto de Parabéns -->
+            <section id="parabens" class="content">
+                <h2>Feliz Aniversário! 🥳</h2>
+                <p>
+                    PARABÉNS BÊEEEEEE! Muitos anos de vida e de felicidades para você. Que você conquiste tudo o que deseja na sua vida (já é certo que você é uma mulher de sucesso). Você é linda, meu amor, continue sendo assim, do jeitinho que você é: uma mulher preta, segura de si. Estou escrevendo isso 15 dias antes do seu aniversário e a gente está conversando há pouco tempo, mas já foi tempo suficiente para perceber o quanto você é especial. Aproveite seu dia, meu bem.
+                </p>
+                <p>
+                    "Obrigado por ter paciência e me ajudar nessa fase não tão boa da minha vida! Gosto muito de você gatinha. Beijos!" 💙
+                </p>
+                <p class="signature">
+                    Com todo o meu carinho, ❤️<br>
+                    Arthur
+                </p>
+            </section>
+
+            <!-- Seção da Pergunta Final -->
+            <section id="pergunta" class="content">
+                <h2>A Pergunta de Um Milhão...</h2>
+                <div id="question-wrapper">
+                    <p class="question-text">E aí, depois de tudo isso... você aceita ser Corinthiana?</p>
+                    <div class="question-container">
+                        <button id="yes-btn">SIM! ⚫⚪</button>
+                        <button id="no-btn">Não</button>
+                    </div>
+                </div>
+                <h3 id="success-msg" class="hidden">EU FALEI QUE VOCÊ IA SER CORINTHIANA! 😂🏆</h3>
+            </section>
+        </main>
+    </div>
+
+    <!-- Elemento de notificação -->
+    <div id="toast-notification" class="toast hidden">
+        Para de graça e aperta no SIM logo! 😉
+    </div>
+
+    <!-- Elemento de áudio para a música de fundo -->
+    <audio id="background-music" loop>
+        <source src="musica-estresse.mp3" type="audio/mpeg">
+        Seu navegador não suporta o elemento de áudio.
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
